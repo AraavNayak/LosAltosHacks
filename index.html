@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+</style>
+
+<body>
+  <ul>
+    <li><a class="active" href="https://los-altos-hacks.cuberperson123.repl.co/">Home</a></li>
+    <li><a href="#Glasses">Glasses</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <div class="jumbotron main-pg-jumbotron">
+    <div class="row">
+      <div class="col-lg-6">
+        <text class="title-page-text"><strong>Find the </strong>
+
+          <div span="typewriter h1"> perfect </div>
+
+
+
+
+          <strong> pair for you</strong>
+        </text>
+        <button type="button" class="btn btn-lg vision-test-button" onclick="window.location='/visionTest.html'">Test
+          your vision</button>
+
+      </div>
+      <div class="col-lg-6">
+        <img src="images/image-removebg-preview (11).png" class="front-img"></img>
+      </div>
+    </div>
+  </div>
+
+  <div class="media">
+    <div id="carouselContainer" class="flex-container hero">
+      <div class="col-lg-12">
+        <h1 id="media-head">Glasses for you</h1>
+      </div>
+      <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses1.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">November Glasses
+                </h5>
+                <p class="card-text">Rectangle Matte Black Eyeglasses</p>
+                <a href="https://www.eyebuydirect.com/eyeglasses/frames/november-matte-black-l-19161?gclid=Cj0KCQjwxMmhBhDJARIsANFGOStchEc6ec1xQhfSoTePIj_Jwl-y9TiF5T6rBj_ps4VXLwmXPRwLROAaArn6EALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses2.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ottoto Wexford</h5>
+                <p class="card-text">On sale: buy one get one free</p>
+                <a href="https://www.glassesusa.com/black-medium/ottoto-wexford/35-002035.html?referral=shoppingfeed&promo=shop60&pla_pdp_banner=true&gclid=Cj0KCQjwxMmhBhDJARIsANFGOSuIxIazmbTTpQFa_6-OsFK1_7QxEg9vzPHKZahJg_HffOyi6-Q0fnEaAhBNEALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses3.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Thackeray</h5>
+                <p class="card-text">4 interest-free payments of $8.80</p>
+                <a href="https://www.glassesusa.com/black-medium/thackeray/31-m10319.html?referral=shoppingfeed&promo=shop60&pla_pdp_banner=true&gclid=Cj0KCQjwxMmhBhDJARIsANFGOSvSk3JdQ_U2NZpON3j5GdiLE0JbSkp9WMC-JVHVK2VWH8ko4QzJU9oaAq9lEALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses4.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">St Michel Glasses</h5>
+                <p class="card-text">Round Golden Eyeglasses</p>
+                <a href="https://www.eyebuydirect.com/eyeglasses/frames/st-michel-golden-l-18781?gclid=Cj0KCQjwxMmhBhDJARIsANFGOSvTXKOb-1RGlcYax4y-c_S1oKkUHOtC3TBsCWthUJvwIgh34F-uc3IaAgosEALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses5.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">RB7151 HEXAGONAL OPTICS</h5>
+                <p class="card-text"> Check availability in your nearest store before you order. Same-day collection is
+                  available according to location, stock and remaining store hours.</p>
+                <a href="https://www.ray-ban.com/usa/eyeglasses/RX7151%20UNISEX%20rb7151%20hexagonal%20optics-dark%20blue/8056597368230?cid=PM-FGS_000000-5.US-RayBan-EN-SmartShoppingEyeglasses&s_kwcid=AL!16196!3!505611991114!!!u!1946797867344!!12526795370!118040859486&gclid=Cj0KCQjwxMmhBhDJARIsANFGOStmyWr3xKmTDgyywqT0aT6YIlUMwhTuvAHEhX5d2r3CohZYPsI1n64aAi_GEALw_wcB&gclsrc=aw.ds"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses6.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ottoto Waterloo</h5>
+                <p class="card-text">4 interest-free payments of $8.80</p>
+                <a href="https://www.glassesusa.com/gold-large/ottoto-waterloo/35-000418.html?referral=shoppingfeed&promo=shop60&pla_pdp_banner=true&gclid=Cj0KCQjwxMmhBhDJARIsANFGOStf4Zx-_YXz09TLKv6mIUIei6Xhd7MqIGR-OFNcfpW-nr65WXwBfxYaAny_EALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses2.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ottoto Wexford</h5>
+                <p class="card-text">On sale: buy one get one free</p>
+                <a href="https://www.glassesusa.com/black-medium/ottoto-wexford/35-002035.html?referral=shoppingfeed&promo=shop60&pla_pdp_banner=true&gclid=Cj0KCQjwxMmhBhDJARIsANFGOSuIxIazmbTTpQFa_6-OsFK1_7QxEg9vzPHKZahJg_HffOyi6-Q0fnEaAhBNEALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses3.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Thackeray</h5>
+                <p class="card-text">4 interest-free payments of $8.80</p>
+                <a href="https://www.glassesusa.com/black-medium/thackeray/31-m10319.html?referral=shoppingfeed&promo=shop60&pla_pdp_banner=true&gclid=Cj0KCQjwxMmhBhDJARIsANFGOSvSk3JdQ_U2NZpON3j5GdiLE0JbSkp9WMC-JVHVK2VWH8ko4QzJU9oaAq9lEALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses4.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">St Michel Glasses</h5>
+                <p class="card-text">Round Golden Eyeglasses</p>
+                <a href="https://www.eyebuydirect.com/eyeglasses/frames/st-michel-golden-l-18781?gclid=Cj0KCQjwxMmhBhDJARIsANFGOSvTXKOb-1RGlcYax4y-c_S1oKkUHOtC3TBsCWthUJvwIgh34F-uc3IaAgosEALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses5.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">RB7151 HEXAGONAL OPTICS</h5>
+                <p class="card-text"> Check availability in your nearest store before you order. Same-day collection is
+                  available according to location, stock and remaining store hours.</p>
+                <a href="https://www.ray-ban.com/usa/eyeglasses/RX7151%20UNISEX%20rb7151%20hexagonal%20optics-dark%20blue/8056597368230?cid=PM-FGS_000000-5.US-RayBan-EN-SmartShoppingEyeglasses&s_kwcid=AL!16196!3!505611991114!!!u!1946797867344!!12526795370!118040859486&gclid=Cj0KCQjwxMmhBhDJARIsANFGOStmyWr3xKmTDgyywqT0aT6YIlUMwhTuvAHEhX5d2r3CohZYPsI1n64aAi_GEALw_wcB&gclsrc=aw.ds"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="images/glasses6.png" alt="..."></img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ottoto Waterloo</h5>
+                <p class="card-text">4 interest-free payments of $8.80</p>
+                <a href="https://www.glassesusa.com/gold-large/ottoto-waterloo/35-000418.html?referral=shoppingfeed&promo=shop60&pla_pdp_banner=true&gclid=Cj0KCQjwxMmhBhDJARIsANFGOStf4Zx-_YXz09TLKv6mIUIei6Xhd7MqIGR-OFNcfpW-nr65WXwBfxYaAny_EALw_wcB"
+                  class="btn btn-primary">Go to website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container about">
+    <h1 class="about-title">ABOUT US</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="about-content">
+          Often times figuring out which glasses you like aren' t that convenient. Going to the store may take too
+          much
+          time or they may not have the glasses that you like. <br>
+          With VisionARy you can try on glasses of your preference
+          at your own comfort. Alternatively users can try on some cool and funky glasses with friends to create
+          funny
+          pictures worthy of a picture book. VisionARy was built for convenience and to make better eyesight more
+          accessible. With specially tailored glasses recommended by your preferences, VisionARy delivers you the
+          glasses that you want for the vision you need.
+        </p>
+        <button type="button" class="btn btn-lg find-pair-button" onclick="window.location='/ARFittingPage.html'">Find a
+          pair</button>
+      </div>
+      <div class="col-lg-6">
+        <img src="images/aboutimage.png" id="about-us-img"></img>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</body>
+
+</html>

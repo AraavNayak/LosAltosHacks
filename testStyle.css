@@ -1,0 +1,12 @@
+.center {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.img1 {
+  margin-left: 40%;
+  margin-right: 40%;
+  display: block;
+  width: 20%;
+  height: auto;
+}
