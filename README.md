@@ -7,3 +7,6 @@ Often times figuring out which glasses you like aren' t that convenient. Going t
           accessible. With specially tailored glasses recommended by your preferences, VisionARy delivers you the
           glasses that you want for the vision you need.
           <br>
+<br>
+<u>Example output:</u><br>
+<img width="553" alt="visionary" src="https://github.com/AraavNayak/VisionARy/assets/104335810/9bd847e2-bcc5-461d-8f09-54f7a8267ff9">
