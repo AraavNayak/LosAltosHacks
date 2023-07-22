@@ -7,4 +7,3 @@ Often times figuring out which glasses you like aren' t that convenient. Going t
           accessible. With specially tailored glasses recommended by your preferences, VisionARy delivers you the
           glasses that you want for the vision you need.
           <br>
-          https://devpost.com/software/visionary-bo4d5s
