@@ -1,11 +1,13 @@
 # VisionARy
-Often times figuring out which glasses you like isn't that convenient. Going to the store may take too much time or they may not have the glasses that you like. <br>
-With VisionARy you can try on glasses of your preference
-at your own comfort. Alternatively, you can try on some cool and funky glasses with friends to create funny pictures worthy of a picture book. Developed using HaarCascades and OpenCV, VisionARy was built for convenience and to make better eyesight more
-accessible. With specially tailored glasses recommended by your preferences, VisionARy delivers you the
+
+Selecting eyeglasses that suit your taste can often be an inconvenient process. Visiting a store can be time-consuming, and there's no guarantee they will have the glasses you desire. VisionARy addresses this issue by providing a platform where you can try on glasses according to your preferences at your own convenience. Additionally, you have the option to experiment with stylish and playful eyewear with friends, resulting in amusing photos suitable for a collection. 
+<br>
+Developed using HaarCascades and OpenCV, VisionARy prioritizes convenience and aims to enhance accessibility to optimal vision. Tailored to your specific preferences, VisionARy delivers you the
 glasses that you want for the vision you need.
 
-Website: https://los-altos-hacks.cuberperson123.repl.co/
+Frontend/website: https://los-altos-hacks.cuberperson123.repl.co/
+<br>
+Devpost: https://devpost.com/software/visionary-bo4d5s
 
 <br>
 <br>
